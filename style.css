@@ -1,3 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+.btn{
+    background-color: #30b868;
+    border: none;
+    padding: 12px 16px 12px 16px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: 600;
+    color: white;
+}
+
 body{
     background-color: burlywood;
+}
+
+header{
+    padding: 16px 120px 16px 120px; 
+    background-color: white;
+}
+
+.header-flex{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+} 
+.header-flex ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}  
+.header-flex ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
 }
